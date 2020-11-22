@@ -12,7 +12,7 @@ preferences[1]={[0],[1],[3],[2]},
 	
 preferences[23]={[3],[2],[1],[0]}.
 	
-After this the point distribution array is created, i.e., the element (i,j) (here 0=< i =< 23 and  0=< j =< 3) is the number of points alternative j gets from preference i (lines 27-37.)
+After this the point distribution array is created, i.e., the element (i,j) (here 0=< i =< 23 and  0=< j =< 3) is the number of points alternative j gets from preference i (lines 27-37).
 	
 Step 2. Now we are in position to store the inequalities responsible for the initial arrangement of alternatives. As usual we assume that this arrangement is (0,1,2,3) and we obtain the 3 PI inequalities responsible for this  (lines 3-8 and 38-41).
 	
