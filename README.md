@@ -1,5 +1,5 @@
 # VotingManipulability
-Codes for computing the manipulability of positional voting rules (Borda, plurality and anti-plurality rules, for 4 and anti-plurality rule for 5 candidates)
+
 We explain the code used for carrying out the algorithm for finding the share of manipulable outcomes in the case of the Borda rule with m=4 alternatives.  With a few modifications to the code provided,  one can  perform analogous computations for scoring voting rules with different weights. 
 
 Step 1. Create the array of possible preferences with the alternatives corresponding to numbers 0 to 3 arranged in increasing order. This array has 24 elements. Each element of the preferences' array is an array of its own with 4 elements (see lines 14-25 in the code). 
